@@ -13,7 +13,9 @@ header, nav, section, aside, footer{
     background: #ebebeb;
 }
 
-
+div{
+    overflow: hidden;
+}
 
 article{
     color: #ebebeb;
@@ -32,13 +34,47 @@ section{
 }
 
 aside{
-    display: inline-block;
+    float: right;
+    width: 445px;
 }
 
 
-header, nav, footer{
+header{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+nav{
+    margin-top: .5em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+footer{
     margin-top: 1em;
     margin-bottom: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
