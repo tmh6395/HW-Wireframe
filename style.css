@@ -1,43 +1,15 @@
 body{
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #777;
     background-color: #777;
     width: 960px;
     font-size: 18px;
     margin: auto;
-    text-align: center;
 }
-
 
 header, nav, section, aside, footer{
     background: #ebebeb;
 }
-
-div{
-    overflow: hidden;
-}
-
-article{
-    color: #ebebeb;
-    background-color: #777;
-}
-
-
-h1, p{
-    color: #777;
-    background-color: #ebebeb;
-}
-
-section{
-    width: 495px;
-    float: left;
-}
-
-aside{
-    float: right;
-    width: 445px;
-}
-
 
 header{
     margin-top: .5em;
@@ -46,35 +18,73 @@ header{
     padding-bottom: 1em;
 }
 
-
 nav{
     margin-top: .5em;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
     padding-top: 1em;
     padding-bottom: 1em;
 }
 
+#div1{
+    position: relative;
+    padding-bottom: 30%;
+}
+
+section{
+    position: absolute;
+    width: 55%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+article{
+    position: absolute;
+    color: #ebebeb;
+    background: #777;
+    top: 20%;
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
+}
+
+#div2{
+    position: absolute;
+    color: #777;
+    background: #ebebeb;
+    top: 33;
+    left: 5%;
+    right: 5%;
+    text-align: center;
+}
+
+#div3{
+    position: absolute;
+    color: #777;
+    background: #ebebeb;
+    left: 5%;
+    right: 5%;
+    bottom: 10%;
+    text-align: center;
+}
+
+aside{
+    position: absolute;
+    width: 43%;
+    top: 0;
+    right: 0;
+    bottom: 0;  
+}
 
 footer{
+    bottom: 0;
+    width: 960px;
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 5em;
     padding-top: 1em;
     padding-bottom: 1em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+h3{
+    text-align: center;
+}
